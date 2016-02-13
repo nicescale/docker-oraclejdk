@@ -48,3 +48,7 @@ RUN cd "/tmp" && \
            "$JAVA_HOME/jre/lib/jfr" \
            "$JAVA_HOME/jre/lib/oblique-fonts" && \
     rm "/tmp/"*
+
+WORKDIR /app
+
+ENTRYPOINT []
