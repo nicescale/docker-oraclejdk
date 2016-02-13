@@ -6,7 +6,7 @@ export CON_NAME=oraclejdk_t
 export REG_URL=index.csphere.cn
 export IMAGE=microimages/oraclejdk
 export TAGS="8 8u73"
-export BASE_IMAGE=microimages/alpine
+export BASE_IMAGE=microimages/alpine-glibc
 
 docker pull $BASE_IMAGE
 
