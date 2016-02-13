@@ -2,7 +2,7 @@ FROM microimages/alpine-glibc:3.3
 
 ENV JAVA_VERSION=8 \
     JAVA_UPDATE=73 \
-    JAVA_BUILD=2 \
+    JAVA_BUILD=02 \
     JAVA_HOME="/usr/lib/jvm/default-jvm"
 
 RUN cd "/tmp" && \
